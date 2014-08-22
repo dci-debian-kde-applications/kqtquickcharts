@@ -1,8 +1,8 @@
-kqtquickcharts (4:4.14.0-1) UNRELEASED; urgency=medium
+kqtquickcharts (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 06:19:20 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 20:04:59 +0200
 
 kqtquickcharts (4:4.13.1-1) unstable; urgency=medium
 
