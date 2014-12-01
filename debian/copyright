@@ -4,7 +4,7 @@ Source: git://anongit.kde.org/kqtquickcharts.git
 
 Files: *
 Copyright: 2014 Sebastian Gottfried <sebastiangottfried@web.de>
-License: LGPL 2.1, 3 or later as approved by KDE e.V.
+License: LGPL-2.1+ or LGPL-KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
