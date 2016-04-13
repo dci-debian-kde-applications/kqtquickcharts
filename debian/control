@@ -3,10 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
-               debhelper (>= 9),
-               kdelibs5-dev,
-               pkg-kde-tools
+Build-Depends: cmake, debhelper (>= 9), kdelibs5-dev, pkg-kde-tools
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/kdeedu/kqtquickcharts
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kqtquickcharts.git
