@@ -1,3 +1,16 @@
+kqtquickcharts (4:14.12.2-2~1.gbp733412) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @7334123b1b41d470b6f5c40edc0dde4740cd5027 **
+
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 14 Apr 2016 13:56:49 +0200
+
 kqtquickcharts (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
