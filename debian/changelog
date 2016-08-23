@@ -1,9 +1,9 @@
-kqtquickcharts (4:16.08.0-0r1) UNRELEASED; urgency=medium
+kqtquickcharts (4:16.08.0-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Aug 2016 22:56:36 +0200
+ -- Pino Toscano <pino@debian.org>  Tue, 23 Aug 2016 22:59:21 +0200
 
 kqtquickcharts (4:14.12.2-2) unstable; urgency=medium
 
