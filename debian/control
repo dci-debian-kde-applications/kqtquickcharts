@@ -29,8 +29,8 @@ Section: libdevel
 Depends: qml-module-org-kde-charts (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Replaces: qml-module-org-kde-charts (<< 4:16.12.1-0neon+16.04+build5)
-Breaks: qml-module-org-kde-charts (<< 4:16.12.1-0neon+16.04+build5)
+Replaces: qml-module-org-kde-charts (<< 4:16.12.1-0neon+16.04+build15)
+Breaks: qml-module-org-kde-charts (<< 4:16.12.1-0neon+16.04+build15)
 Description: QtQuick plugin to render interactive charts - developer files
  A QtQuick plugin to render beautiful and interactive charts.
  .
