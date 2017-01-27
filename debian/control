@@ -17,9 +17,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kqtquickcharts.git
 Package: qml-module-org-kde-charts
 Architecture: any
 Section: libs
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: qtdeclarative4-kqtquickcharts-1
-Conflicts: qtdeclarative4-kqtquickcharts-1
+Depends: qml-module-qtquick2, ${misc:Depends}, ${shlibs:Depends}
 Description: QtQuick plugin to render interactive charts
  A QtQuick plugin to render beautiful and interactive charts.
  .
