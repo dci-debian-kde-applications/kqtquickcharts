@@ -22,3 +22,17 @@ Description: QtQuick plugin to render interactive charts
  A QtQuick plugin to render beautiful and interactive charts.
  .
  kqtquickcharts is part of KDE Applications.
+
+Package: kqtquickcharts-dev
+Architecture: any
+Section: libdevel
+Depends: qml-module-org-kde-charts (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Replaces: qml-module-org-kde-charts (<< 4:16.12.1-0neon+16.04+build5)
+Breaks: qml-module-org-kde-charts (<< 4:16.12.1-0neon+16.04+build5)
+Description: QtQuick plugin to render interactive charts - developer files
+ A QtQuick plugin to render beautiful and interactive charts.
+ .
+ kqtquickcharts is part of KDE Applications.  This package contains
+ the files for developing with it.
