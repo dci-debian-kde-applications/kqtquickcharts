@@ -8,11 +8,25 @@ Build-Depends: cmake,
                extra-cmake-modules,
                pkg-kde-tools,
                qtbase5-dev,
-               qtdeclarative5-dev
+               qtdeclarative5-dev,
 Standards-Version: 4.1.0
 Homepage: https://projects.kde.org/projects/kde/kdeedu/kqtquickcharts
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kqtquickcharts.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kqtquickcharts.git
+
+Package: kqtquickcharts-dev
+Architecture: any
+Section: libdevel
+Depends: qml-module-org-kde-charts (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Replaces: qml-module-org-kde-charts (<< 4:16.12.2)
+Breaks: qml-module-org-kde-charts (<< 4:16.12.2)
+Description: QtQuick plugin to render interactive charts - developer files
+ A QtQuick plugin to render beautiful and interactive charts.
+ .
+ kqtquickcharts is part of KDE Applications.  This package contains
+ the files for developing with it.
 
 Package: qml-module-org-kde-charts
 Architecture: any
@@ -22,17 +36,3 @@ Description: QtQuick plugin to render interactive charts
  A QtQuick plugin to render beautiful and interactive charts.
  .
  kqtquickcharts is part of KDE Applications.
-
-Package: kqtquickcharts-dev
-Architecture: any
-Section: libdevel
-Depends: qml-module-org-kde-charts (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Replaces: qml-module-org-kde-charts (<< 4:16.12.2)
-Breaks: qml-module-org-kde-charts (<< 4:16.12.2)
-Description: QtQuick plugin to render interactive charts - developer files
- A QtQuick plugin to render beautiful and interactive charts.
- .
- kqtquickcharts is part of KDE Applications.  This package contains
- the files for developing with it.
