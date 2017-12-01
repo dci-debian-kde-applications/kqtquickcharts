@@ -10,6 +10,9 @@ kqtquickcharts (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Simplify watch file, and switch it to https.
   * Bump Standards-Version to 4.1.1, no changes required.
+  * Drop the kqtquickcharts-dev package, since it is not used, and it only
+    contains an header and a cmake config file with its version
+    - make sure to not ship these files
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Sep 2017 11:46:09 +0200
 
