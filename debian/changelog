@@ -13,6 +13,7 @@ kqtquickcharts (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Drop the kqtquickcharts-dev package, since it is not used, and it only
     contains an header and a cmake config file with its version
     - make sure to not ship these files
+  * Use https in copyright.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Sep 2017 11:46:09 +0200
 
