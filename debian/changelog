@@ -8,6 +8,7 @@ kqtquickcharts (4:17.08.3-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Simplify watch file, and switch it to https.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Sep 2017 11:46:09 +0200
 
